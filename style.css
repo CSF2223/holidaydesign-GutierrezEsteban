@@ -1,0 +1,42 @@
+/*
+Color Palette
+background color: #E02401
+primary: #F78812
+secondary: #AB6D23
+tertiary: #51050F
+accent: #9277AC
+vegasGold: #c5b358
+white: #fff
+black: #000  
+*/
+
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #E02401;
+    color: #fff;
+}
+
+
+
+.christmasTitle {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.chineseNewYear {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.lasPosadasTitle {
+    text-align: center;
+    font-size: 1.6rem;
+}
