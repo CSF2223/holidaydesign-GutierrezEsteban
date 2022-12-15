@@ -25,18 +25,50 @@ body {
 }
 
 
+.header {
+    font-size: 3rem;
+    text-align: Center;
+}
+
 
 .christmasTitle {
-    text-align: center;
+    padding: 3rem;
     font-size: 1.6rem;
 }
 
-.chineseNewYear {
-    text-align: center;
+.chineseNewYearTitle {
+    padding: 3rem;
     font-size: 1.6rem;
 }
 
-.lasPosadasTitle {
-    text-align: center;
+.hanukkahTitle {
+    padding: 3rem;
     font-size: 1.6rem;
 }
+
+.chineseLamp img {
+    width: 43vw;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) {
+    
+    .christmas {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-align: left
+}
+
+
+    
+    }
