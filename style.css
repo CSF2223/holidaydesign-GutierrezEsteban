@@ -11,6 +11,9 @@ black: #000
 */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+
 html {
     box-sizing: border-box;
 }
@@ -18,39 +21,75 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-weight: 300;
     background-color: #E02401;
     color: #fff;
 }
 
 
+.headerClass {
+    border-bottom:  10px solid #AB6D23;
+    border-right: 10px solid #AB6D23;
+    border-left: 10px solid #AB6D23;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+
 .header {
     font-size: 3rem;
     text-align: Center;
+    padding: 10px;
+    
 }
 
 
 .christmasTitle {
     padding: 3rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .chineseNewYearTitle {
     padding: 3rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .hanukkahTitle {
     padding: 3rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .chineseLamp img {
-    width: 43vw;
+    width: 100vw;
 }
 
- 
+.hanukkahCandles img{
+    width: 100vw;
+}
+
+.christmasTree img{
+   
+    width: 100vw;
+} 
+
+
+
+p {
+    padding: 1.2rem;
+    border-bottom:  10px solid #AB6D23;
+    border-right: 10px solid #AB6D23;
+    border-left: 10px solid #AB6D23;
+    border-top: 10px solid #AB6D23;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+
+
+
+
+
 
 
 
@@ -63,12 +102,42 @@ body {
 @media (min-width: 800px) {
     
     .christmas {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    text-align: left
-}
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+
+    .chineseNewYear {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    .hanukkah {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .christmasTree img {
+        width: 43vw;
+    }
+
+
+    .chineseLamp img {
+        width: 43vw;
+    }
+
+    .hanukkahCandles img{
+        width: 43vw;
+    }
+
+
 
 
     
-    }
+}
