@@ -58,19 +58,27 @@ body {
 .hanukkahTitle {
     padding: 3rem;
     font-size: 2rem;
+   
 }
 
 .chineseLamp img {
     width: 100vw;
+    border-radius: 40px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.6);
 }
 
 .hanukkahCandles img{
     width: 100vw;
+    border-radius: 40px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.6);
 }
 
 .christmasTree img{
    
     width: 100vw;
+    border-radius: 40px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.6);
+    animation: christmas-animation infinite;
 } 
 
 
@@ -81,11 +89,34 @@ p {
     border-right: 10px solid #AB6D23;
     border-left: 10px solid #AB6D23;
     border-top: 10px solid #AB6D23;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 
+.christmas {
+    margin-top: 20px;
+}
+
+.chineseNewYear {
+    margin-top: 20px;
+}
+ 
+.hanukkah {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+@keyframes christmas-animation {
+  from {top: 0px;}
+  to {top: 200px;}
+}
 
 
 
@@ -132,7 +163,7 @@ p {
         width: 43vw;
     }
 
-    .hanukkahCandles img{
+    .hanukkahCandles img {
         width: 43vw;
     }
 
