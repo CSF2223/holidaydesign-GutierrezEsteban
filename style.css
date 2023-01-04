@@ -47,17 +47,17 @@ body {
 
 .christmasTitle {
     padding: 3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .chineseNewYearTitle {
     padding: 3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .hanukkahTitle {
     padding: 3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
    
 }
 
@@ -107,16 +107,65 @@ p {
 }
 
 
-
-
-
-
-
-
-@keyframes christmas-animation {
-  from {top: 0px;}
-  to {top: 200px;}
+.christmasTree:hover {
+  transform: scaleY(-1);
 }
+
+.chineseLamp:hover {
+  transform: scaleY(-1);
+}
+
+.hanukkahCandles:hover {
+  transform: scaleY(-1);
+}
+
+
+
+
+
+ footer {
+     text-align: center;
+     color: #c5b358;
+     margin: 10rem 0;
+     border-top: 1px solid #9277AC;
+ }
+ 
+ .copyright {
+     margin: 1rem;
+     padding: 6rem;
+     font-size: 1rem;
+     color: #c5b358;
+     display: block;
+ }
+
+.bottomNav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomNav li {
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+
+.bottomNav li a {
+    text-decoration: none;
+    color: #c5b358;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
 
 
 
